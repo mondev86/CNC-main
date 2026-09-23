@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="plasmaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners for standalone app icon -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)"/>
+  <rect x="16" y="16" width="480" height="480" rx="88" fill="none" stroke="#ea580c" stroke-width="6" stroke-opacity="0.3"/>
+  
+  <!-- CNC Torch Nozzle & Plasma Arc Motif -->
+  <!-- Torch body -->
+  <path d="M 236 60 L 276 60 L 286 170 L 226 170 Z" fill="#78716c"/>
+  <path d="M 226 170 L 286 170 L 276 220 L 236 220 Z" fill="#ea580c"/>
+  <path d="M 244 220 L 268 220 L 260 250 L 252 250 Z" fill="#fbbf24"/>
+
+  <!-- Plasma Flame -->
+  <path d="M 256 255 C 285 295, 340 330, 340 395 C 340 445, 302 470, 256 470 C 210 470, 172 445, 172 395 C 172 330, 227 295, 256 255 Z" fill="url(#plasmaGrad)"/>
+  
+  <!-- Inner Flame Core -->
+  <path d="M 256 315 C 274 345, 300 375, 300 415 C 300 445, 280 460, 256 460 C 232 460, 212 445, 212 415 C 212 375, 238 345, 256 315 Z" fill="#ffffff" opacity="0.9"/>
+
+  <!-- Metal Sheet Cut Path (Stenciled Letters CNC) -->
+  <path d="M 90 440 L 422 440" stroke="#f97316" stroke-width="12" stroke-linecap="round" stroke-dasharray="16 12"/>
+</svg>

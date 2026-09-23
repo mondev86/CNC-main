@@ -1,0 +1,35 @@
+# Dependencias y compilación
+node_modules/
+build/
+dist/
+coverage/
+
+# Entorno y variables de sistema
+.env*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Configuración de IDE y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de lógica propietaria y algoritmos CNC (Modo Demo GitHub)
+# Los siguientes archivos contienen la lógica central de cálculo geométrico y código G
+# para proteger el núcleo del proyecto al subir a un repositorio público tipo demo:
+src/utils/gcodeGenerator.ts
+src/utils/plasmaFonts.ts
+src/utils/svgParser.ts
+src/utils/workpieceCalculator.ts
+
+# Scripts de lanzamiento local del sistema
+*.cmd
+*.ps1
+*.bat
+*.sh

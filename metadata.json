@@ -1,0 +1,6 @@
+{
+  "name": "PlasmaNGC Studio",
+  "description": "Generador de código G (.ngc) para LinuxCNC a partir de texto stencil/plasma y archivos SVG, con simulación de corte.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
